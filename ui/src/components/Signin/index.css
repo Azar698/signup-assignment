@@ -1,0 +1,150 @@
+.login-section{
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container{
+    background-color: #F5F5F5;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333333;
+    border-radius: 8px;
+}
+
+.sign-in-heading{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.form-container{
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    min-height: 80%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.email-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 80%;
+    height: 80px;
+}
+
+.email-text{
+    color:#333333;
+    font-weight: 600;
+}
+
+.password-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 80%;
+    height: 80px;
+}
+
+.password-text{
+    color:#333333;
+    font-weight: 600;
+}
+
+.email-input{
+    color: #7F8C8D;
+    font-weight: 600;
+    padding: 10px 10px;
+    background-color: #A8D5BA;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.password-input{
+    color: #7F8C8D;
+    font-weight: 600;
+    padding: 10px 10px;
+    background-color: #A8D5BA;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-container{
+    display: flex;
+    gap: 8px;
+}
+
+.login-btn{
+    color: #FFFFFF;
+    background-color: #2E8B57;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    background-color: #13512e;
+}
+
+.signup-btn{
+    color: #FFFFFF;
+    background-color: #353535;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-btn:hover{
+    background-color: #232323;
+}
+
+.login-img{
+    height: 450px;
+}
+
+@media (max-width: 768px) {
+    .login-section {
+        width: 100%;
+    }
+
+    .login-container {
+        height: auto;
+        background: none;
+    }
+
+    .form-container {
+        width: 90%;
+        max-width: none;
+    }
+
+    .email-container, .password-container {
+        width: 100%;
+    }
+
+    .btn-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .login-img{
+        display: none;
+    }
+}
